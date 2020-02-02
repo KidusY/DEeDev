@@ -1,0 +1,54 @@
+@media (min-width: 1024px) {
+	.navbar-brand {
+		padding-left: 100px;
+		font-size: 30px !important;
+	}
+
+	.navbar-nav {
+		padding: 30px 200px;
+	}
+	.landingPage img {
+		width: 550px;
+	}
+	.header,
+	.landingPage {
+		margin: 100px 0;
+		overflow-y: hidden !important;
+	}
+	.landingPage .landingPageInfo {
+		padding-top: 200px;
+	}
+	.btnCollection button {
+		padding: 15px 40px !important;
+		border: none;
+		outline: none;
+		border-radius: 10px;
+	}
+	.btnCollection button:nth-child(1) {
+		background-color: rgba(32, 68, 231, 0.89);
+		color: white;
+		font-weight: bold;
+	}
+	.btnCollection button:nth-child(2) {
+		background-color: rgba(199, 208, 248, 0.842);
+		color: rgb(32, 69, 231);
+		font-weight: bold;
+	}
+	.offers .container h1 {
+		padding-top: 100px;
+	}
+	.card {
+		width: 400px !important;
+	}
+	.experience .col-md-6 img {
+		width: 90% !important;
+	}
+	.experience .marketing img {
+		width: 40% !important;
+		padding-left: 100px;
+	}
+	.experience div:nth-child(1) {
+		padding-top: 100px !important;
+		padding-left: 50px;
+	}
+}
