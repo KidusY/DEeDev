@@ -12,35 +12,27 @@ gsap.from('.services', {
     duration: 2.5
 })
 
-setInterval(() => {
-    gsap.from(img[0], {
-        duration: 2.5,
-        ease: "power2.out",
-        x: -100
 
-    });
 
-    gsap.from(img[1], {
-        duration: 2.5,
-        ease: "power2.out",
-        delay: 1,
-        x: -500,
 
-    });
-    gsap.from(img[2], {
-        duration: 2.5,
-        ease: "power2.out",
-        delay: 1,
-        x: 1000,
-        opacity: 0
+AOS.init();
 
-    });
+$("#testimonial-slider").owlCarousel({
+    items: 3,
+    itemsDesktop: [1000, 3],
+    itemsDesktopSmall: [979, 2],
+    itemsTablet: [768, 2],
+    itemsMobile: [650, 1],
+    pagination: true,
+    autoPlay: true
+});
 
-}, 7000);
-
-gsap.from('.offers .card', {
-    duration: 2.5,
-    ease: "power2.out",
-    x: -100
-
+$(".owl-carousel").owlCarousel({
+    items: 3,
+    itemsDesktop: [1000, 3],
+    itemsDesktopSmall: [979, 2],
+    itemsTablet: [768, 2],
+    itemsMobile: [650, 1],
+    pagination: true,
+    autoPlay: true
 });

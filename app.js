@@ -8,7 +8,11 @@ window.addEventListener('scroll', () => {
         $('nav').css('background', 'none');
         $('.navbar-nav').css('padding', '30px 200px');
     }
+
+
+
 });
+
 
 
 

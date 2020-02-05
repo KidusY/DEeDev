@@ -5,11 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Lobster|Montserrat|Noto+Sans+TC&display=swap" rel="stylesheet">
-
+   
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="desk-style.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Home</title>
   </head>
   <body>
@@ -59,29 +64,46 @@
 
     <main>
 
-      <section class="services container">
-        <div class="row container">
-          <div class="col-md-4 col-sm-12 service">
-            <img src="assets/hiclipart.com (30).png" alt="">
-           <h6 class="font-weight-bold pt-2"> Building Websites</h6>
-           <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Natus totam tempora dolor sunt, ut amet ab veniam veritatis</p>          
-          </div>
-          <div class="col-md-4 col-sm-12 service">
-            <img src="assets/hiclipart.com (31).png" alt="">
-           <h6 class="font-weight-bold pt-2"> Building Websites</h6>
-           <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Natus totam tempora dolor sunt, ut amet ab veniam veritatis</p> 
-          </div>
-          <div class="col-md-4 col-sm-12 service">
-            <img src="assets/hiclipart.com (32).png" alt="">
-           <h6 class="font-weight-bold pt-2"> Building Websites</h6>
-           <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Natus totam tempora dolor sunt, ut amet ab veniam veritatis</p> 
-          </div>
-        </div>
+      <!--Services------------------------------------------------------->
+      <section class="services container mt-5 mb-5">
+           <div class="owl-carousel owl-theme">
+             <div class="ml-2 mr-2"> <img src="assets/hiclipart.com (29).png" alt="" srcset="">
+              <h3 class= "text-center">Web Dev</h3>
+              <p class= "text-center text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem accusamus minima 
+                necessitatibus ipsa. Sit consequuntur recusandae maiores ullam, commodi 
+                quidem culpa! Culpa tempore, perspiciatis magnam enim rem neque veritatis aspernatur!</p>      
+             </div>
+             <div class="ml-2 mr-2">
+               <img src="assets/hiclipart.com (31).png" alt="" srcset="">
+              <h3 class= "text-center">Computer Repair</h3>
+              <p class= "text-center text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem accusamus minima 
+                necessitatibus ipsa. Sit consequuntur recusandae maiores ullam, commodi 
+                quidem culpa! Culpa tempore, perspiciatis magnam enim rem neque veritatis aspernatur!</p>        
+             </div>
+             <div class="ml-2 mr-2">
+               <img src="assets/hiclipart.com (30).png" alt="" srcset="">
+              <h3 class= "text-center"></h3>
+              <p class= "text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem accusamus minima 
+                necessitatibus ipsa. Sit consequuntur recusandae maiores ullam, commodi 
+                quidem culpa! Culpa tempore, perspiciatis magnam enim rem neque veritatis aspernatur!</p>        
+             </div> 
+             <div class="ml-2 mr-2">
+               <img src="assets/hiclipart.com (32).png" alt="" srcset="">
+              <h3 class= "text-center">Digital Marketing</h3>
+              <p class= "text-center text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem accusamus minima 
+                necessitatibus ipsa. Sit consequuntur recusandae maiores ullam, commodi 
+                quidem culpa! Culpa tempore, perspiciatis magnam enim rem neque veritatis aspernatur!</p>       
+             </div>
+             <div class="ml-2 mr-2"> 
+               <img src="assets/hiclipart.com (29).png" alt="" srcset="">
+              <h3 class= "text-center">Web Dev</h3>
+              <p class= "text-center text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem accusamus minima 
+                necessitatibus ipsa. Sit consequuntur recusandae maiores ullam, commodi 
+                quidem culpa! Culpa tempore, perspiciatis magnam enim rem neque veritatis aspernatur!</p>       
+             </div>  
+           </div>       
       </section>
-
+    <!---Afflictions------------------------------------------------------------------------->  
       <section class="afflictions container">
         <div class="affiliates container">
           <div><img src="assets/hiclipart.com (33).png" alt=""></div>
@@ -108,7 +130,7 @@
              </div>   
               
             <div class="col-md-6 col-sm-12">
-                <div class="card">
+                <div class="card" data-aos="fade-left" data-aos-duration="2000" >
                   <img src="assets/dylan-gillis-KdeqA3aTnBY-unsplash.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <form action="">
@@ -118,7 +140,7 @@
                       <hr>
                       <textarea name="message" id="" cols="27" rows="5" placeholder="Message"></textarea>
                       <hr>
-                      <a href="#" class="btn btn-primary">Send</a>
+                      <a href="#" class="btn btn-primary p-2">Send</a>
                     </form>
                     
                   </div>
@@ -135,7 +157,7 @@
     <h4 class="container text-center">We have Lots of experience</h4>
     <h5 class="container text-center">  in digital Marketing </h5>
     <p class="container text-center text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur error repellat </p>
-    <div class="marketing container">
+    <div class="marketing container"  data-aos="fade-right" data-aos-duration="2000"  >
       <img src="assets/hiclipart.com (35).png" alt="" >
       <div class="container">
          <h4>Let Build your presence in the digital world</h4>
@@ -143,7 +165,7 @@
       </div>
      
     </div>
-    <div class="marketing container">
+    <div class="marketing container"  data-aos="fade-right" data-aos-duration="2000"  data-aos-delay="1000">
       <img src="assets/hiclipart.com (36).png" alt="" >
        <div class="container">
          <h4 >Deep understanding of your data</h4>
@@ -151,22 +173,98 @@
       </div>
     </div>
      </div>
-     <div class="col-md-6 col-sm-12"> <img src="assets/Group 2@2x.png" alt="" width="100%" class="pt-5"></div>
+     <div class="col-md-6 col-sm-12"> <img src="assets/Group 2@2x.png" alt="" width="100%" class="pt-5"  data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200" ></div>
     
    </div>
 
     
       </section>
 
+    <section class="customers">
+        <h3 class="text-center container pt-5"> Our biggest fans are our customers </h3>
+        <p  class="container text-center text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quo ducimus quibusdam! Nostrum, corporis officiis laboriosam dignissimos voluptate exercitationem voluptatibus, cum nam debitis sapiente
+           </p>
+         <div class="demo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="testimonial-slider" class="owl-carousel">
+                            <div class="testimonial">
+                                <span class="icon fa fa-quote-left"></span>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, aliquet sit amet 
+                                    elementum vel, vehicula eget eros. Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. 
+                                    Praesent.Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.
+                                </p>
+                                <div class="testimonial-content">
+                                    <div class="pic"><img src="assets/team-4.jpg" class=""alt=""></div>
+                                       <h3>williamson</h3>
+                                    
+                                </div>
+                            </div>
+
+                             <div class="testimonial">
+                                <span class="icon fa fa-quote-left"></span>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, aliquet sit amet 
+                                    elementum vel, vehicula eget eros. Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. 
+                                    Praesent.Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.
+                                </p>
+                                <div class="testimonial-content">
+                                    <div class="pic"><img src="assets/team-3.jpg" class=""alt=""></div>
+                                       <h3>williamson</h3>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="testimonial">
+                                <span class="icon fa fa-quote-left"></span>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                     Nullam justo neque, aliquet sit amet elementum vel, vehicula eget eros.
+                                      Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.
+                                      Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.
+                                </p>
+                                <div class="testimonial-content">
+                                    <div class="pic"><img src="assets/team-5.jpg" alt=""></div>
+                                    <h3>Kristina</h3>
+                                   
+                                </div>
+                            </div>
+                            
+                            <div class="testimonial">
+                                <span class="icon fa fa-quote-left"></span>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, 
+                                    aliquet sit amet elementum vel, vehicula eget eros. Vivamus arcu metus, mattis sed 
+                                    sagittis at, sagittis quis neque. Praesent.Vivamus arcu metus, mattis sed sagittis at, sagittis
+                                     quis neque. Praesent.
+                                </p>
+                                <div class="testimonial-content">
+                                    <div class="pic"><img src="assets/team-6.jpg" alt=""></div>
+                                    <h3>Steve Thomas</h3>
+                                   
+                                </div>
+                            </div>                  
+                           </div>
+                    </div>
+                </div>
+            </div>                            
+          </div>       
+        </section>
+
     </main>
   
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+ 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/gsap.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
     <script src="animation.js"></script>
     <script src="app.js"></script>
   </body>
