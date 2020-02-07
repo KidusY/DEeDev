@@ -53,6 +53,10 @@ header h2 {
 	padding: 10px;
 	border: none;
 	outline: none;
+	border-radius: 10px;
+}
+.btnCollection button:hover {
+	transform: scale(1.08);
 }
 .btnCollection button:nth-child(1) {
 	background-color: rgba(32, 68, 231, 0.89);
@@ -150,9 +154,6 @@ textarea {
 	padding-top: 30px;
 }
 
-.customers {
-}
-
 .testimonial {
 	background: #fff;
 	text-align: center;
@@ -237,4 +238,49 @@ textarea {
 .pic img {
 	width: 100px !important;
 	height: 50px;
+}
+.focus .row {
+	margin: 0 auto;
+}
+.focus .row ul {
+	display: flex;
+	justify-content: space-evenly;
+	list-style: none;
+}
+.focus .row ul li {
+	border-right: solid 2px #cfcfcf85;
+	padding-right: 10px;
+}
+.packages {
+	height: 200vh;
+	background: url("assets/Web\ 1920\ –\ 1@2x.jpg");
+	background-position: center;
+	background-size: cover;
+}
+.packages p {
+	width: 30%;
+	margin: 0 auto;
+	border-radius: 50px;
+	background-color: rgba(95, 158, 160, 0.924);
+	color: white;
+}
+.packages ul {
+	list-style: none;
+}
+.packages ul svg {
+	width: 5%;
+	color: teal;
+}
+.packages .packageLineUp {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.packages .packageLineUp .package1:hover {
+	transform: scale(1.1);
+	z-index: 1000;
+}
+.packages .packageLineUp .package2:hover {
+	transform: scale(1.1);
+	z-index: 1000;
 }

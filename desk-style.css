@@ -22,7 +22,6 @@
 		padding: 15px 40px !important;
 		border: none;
 		outline: none;
-		border-radius: 10px;
 	}
 	.btnCollection button:nth-child(1) {
 		background-color: rgba(32, 68, 231, 0.89);
@@ -50,5 +49,8 @@
 	.experience div:nth-child(1) {
 		padding-top: 100px !important;
 		padding-left: 50px;
+	}
+	.packages {
+		height: 100vh !important;
 	}
 }
